@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="relative  mt-20">
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center w-full h-full relative z-10">
+    <div className="relative    mt-20">
+      <div className="flex flex-col-reverse md:flex-row justify-between items-center w-full h-full relative z-10 min-h-[60vh]">
         <div className="space-y-6 z-10 p-4 mt-20 md:mt-0">
           <h1 className="text-3xl md:text-5xl font-bold ">
             Nice to meet you! <br />{" "}
