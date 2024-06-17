@@ -10,7 +10,7 @@ export default function Project() {
       title: "My first Personal Portfolio",
       tech: [SiTailwindcss, SiHtml5, SiCss3, SiJavascript],
       Link: "https://khangdepzaivodich.github.io/Portfolio/",
-      cover: "./project1.png",
+      cover: "/project1.png",
       background: "bg-indigo-500",
     },
   ];
