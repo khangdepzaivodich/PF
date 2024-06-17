@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+.glow {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  box-shadow: 0 0 200px 130px rgb(206, 99, 255); /* outer cyan */
+}
