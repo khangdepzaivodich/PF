@@ -7,6 +7,7 @@ import {
   SiNextdotjs,
   SiReact,
   SiTailwindcss,
+  SiTypescript,
 } from "react-icons/si";
 
 export default function Skill() {
@@ -24,8 +25,8 @@ export default function Skill() {
       Icon: SiTailwindcss,
     },
     {
-      title: "Next.js",
-      Icon: SiNextdotjs,
+      title: "TypeScript",
+      Icon: SiTypescript,
     },
     {
       title: "C++",
