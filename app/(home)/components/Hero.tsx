@@ -11,11 +11,11 @@ export default function Hero() {
           <h1 className="text-3xl md:text-5xl font-bold ">
             Nice to meet you! <br />{" "}
             <span className="underline underline-offset-4 decoration-purple-500">
-              I`m Khang
+              I am Khang
             </span>
           </h1>
           <p>
-            I`m a Fullstack developer passionate about building a modern web
+            A Fullstack developer passionate about building a modern web
             application.
           </p>
           <Button

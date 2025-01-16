@@ -2,15 +2,43 @@ import { DirectionAwareHover } from "@/components/ui/ImgaeHover";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 import React from "react";
-import { SiCss3, SiHtml5, SiJavascript, SiTailwindcss } from "react-icons/si";
+import {
+  SiCplusplus,
+  SiCsharp,
+  SiCss3,
+  SiHtml5,
+  SiJavascript,
+  SiTailwindcss,
+} from "react-icons/si";
 
 export default function Project() {
   const projects = [
+    {
+      title: "Winsform Flight Management project",
+      tech: [SiCsharp],
+      Link: "https://github.com/khangdepzaivodich/Quan-ly-may-bay",
+      cover: "/project3.png",
+      background: "bg-indigo-500",
+    },
     {
       title: "My first Personal Portfolio",
       tech: [SiTailwindcss, SiHtml5, SiCss3, SiJavascript],
       Link: "https://khangdepzaivodich.github.io/Portfolio/",
       cover: "/project1.png",
+      background: "bg-indigo-500",
+    },
+    {
+      title: "WinsForm 2D Platformer Game project",
+      tech: [SiCsharp],
+      Link: "https://github.com/khangdepzaivodich/Hack-Game",
+      cover: "/project2.png",
+      background: "bg-indigo-500",
+    },
+    {
+      title: "Winsform Graph Editor project",
+      tech: [SiCsharp],
+      Link: "https://github.com/khangdepzaivodich/Graph-Editor",
+      cover: "/project4.png",
       background: "bg-indigo-500",
     },
   ];
@@ -20,11 +48,11 @@ export default function Project() {
       <div className="font-bold text-3xl cursor-pointer underline underline-offset-8 decoration-blue-900">
         Projects
       </div>
-      <div className="flex flex-wrap justify-center pt-20">
+      <div className="flex flex-wrap justify-center pt-20 gap-5">
         {projects.map((project, idx) => {
           return (
             <Link href={project.Link} key={idx} target="_blank">
-              <div className={cn("p-3 rounded-md", project.background)}>
+              <div className={cn("p-2 rounded-md", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className="w-full"

@@ -1,8 +1,10 @@
 "use client";
 import { CardHover } from "@/components/ui/CardHover";
+import { title } from "process";
 import React from "react";
 import {
   SiCplusplus,
+  SiCsharp,
   SiJavascript,
   SiNextdotjs,
   SiReact,
@@ -33,8 +35,8 @@ export default function Skill() {
       Icon: SiCplusplus,
     },
     {
-      title: "JavaScript",
-      Icon: SiJavascript,
+      title: "C#",
+      Icon: SiCsharp,
     },
   ];
   return (
